@@ -4,7 +4,7 @@
 #include "player.h"
 
 
-#define MAX_ROOMS 2
+#define MAX_ROOMS 10
 
 typedef struct Game
 {
