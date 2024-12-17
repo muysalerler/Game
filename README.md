@@ -106,9 +106,9 @@ list
 ```
 > look
 You are in: Room 1
-A Spider is here! Health: 25
 Items in the room:
 - Sword
+A Spider is here! Health: 25
 
 > attack
 You attacked with your sword to destroy the monster!
