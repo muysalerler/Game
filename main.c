@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     srand(time(NULL));
     Game g;
     initGame(&g);

@@ -3,9 +3,11 @@
 
 #include "player.h"
 
+
 #define MAX_ROOMS 10
 
-typedef struct Game {
+typedef struct Game
+{
     Player player;
     Room *rooms[MAX_ROOMS];
     int roomCount;

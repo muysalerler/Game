@@ -3,7 +3,8 @@
 
 #include "room.h"
 
-typedef struct Player {
+typedef struct Player
+{
     int health;
     int strength;
     int shield;
@@ -18,6 +19,5 @@ void showHealth(Player *player);
 void pickupItem(Player *player, Room *room, const char *item);
 void attack(Player *player);
 void usePotion(Player *player);
-
 
 #endif
