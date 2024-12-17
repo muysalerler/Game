@@ -5,7 +5,7 @@
 
 void initPlayer(Player *player)
 {
-    player->health = 300;
+    player->health = 100;
     player->strength = 20;
     player->shield = 0;
     player->inventoryCount = 0;
@@ -114,8 +114,7 @@ void useMiracleFruit(Player *player) {
         return;
     }
 
-    // Oyuncu 'y' dedi. Artık rastgele etki:
-    int effect = rand() % 2; // 0 veya 1
+    int effect = rand() % 2; 
     if (effect == 0) {
         printf("You eat the MiracleFruit... and suddenly collapse!\n");
         printf("Game Over!\n");

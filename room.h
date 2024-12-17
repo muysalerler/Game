@@ -3,7 +3,7 @@
 
 #include "creature.h"
 
-#define MAX_INVENTORY 3
+#define MAX_INVENTORY 4
 #define MAX_DESC 256
 
 typedef enum
