@@ -22,23 +22,17 @@ Welcome to the **Text-Based Dungeon Game**, a dungeon exploration adventure writ
 ## How to Compile and Run
 This project includes a Makefile for easy compilation.
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd dungeon-game
-   ```
-
-2. **Compile the game**:
+1. **Compile the game**:
    ```bash
    make
    ```
 
-3. **Run the game**:
+2. **Run the game**:
    ```bash
    ./dungeon_game
    ```
 
-4. **Clean build files**:
+3. **Clean build files**:
    ```bash
    make clean
    ```
